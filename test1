@@ -1,0 +1,18 @@
+Invalid repository data in /home/mgt/tmprepo/glamira2/vendor/composer/installed.json, packages could not be loaded: [Seld\JsonLint\ParsingException] "/home/mgt/tmprepo/glamira2/vendor/composer/installed.json" does not contain valid JSON
+Parse error on line 1:
+<<<<<<< HEAD{    "
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['#0 /home/mgt/tmprepo/glamira2/vendor/composer/composer/src/Composer/Repository/ArrayRepository.php(195): Composer\Repository\FilesystemRepository->initialize()
+#1 /home/mgt/tmprepo/glamira2/vendor/composer/composer/src/Composer/Plugin/PluginManager.php(257): Composer\Repository\ArrayRepository->getPackages()
+#2 /home/mgt/tmprepo/glamira2/vendor/composer/composer/src/Composer/Plugin/PluginManager.php(77): Composer\Plugin\PluginManager->loadRepository()
+#3 /home/mgt/tmprepo/glamira2/vendor/composer/composer/src/Composer/Factory.php(384): Composer\Plugin\PluginManager->loadInstalledPlugins()
+#4 /home/mgt/tmprepo/glamira2/vendor/composer/composer/src/Composer/Factory.php(576): Composer\Factory->createComposer()
+#5 /home/mgt/tmprepo/glamira2/vendor/magento/framework/Composer/ComposerFactory.php(47): Composer\Factory::create()
+#6 /home/mgt/tmprepo/glamira2/vendor/magento/framework/Composer/ComposerInformation.php(368): Magento\Framework\Composer\ComposerFactory->create()
+#7 /home/mgt/tmprepo/glamira2/vendor/magento/framework/Composer/ComposerInformation.php(381): Magento\Framework\Composer\ComposerInformation->getComposer()
+#8 /home/mgt/tmprepo/glamira2/vendor/magento/framework/Composer/ComposerInformation.php(244): Magento\Framework\Composer\ComposerInformation->getLocker()
+#9 /home/mgt/tmprepo/glamira2/vendor/magento/framework/App/ProductMetadata.php(120): Magento\Framework\Composer\ComposerInformation->getSystemPackages()
+#10 /home/mgt/tmprepo/glamira2/vendor/magento/framework/App/ProductMetadata.php(80): Magento\Framework\App\ProductMetadata->getSystemPackageVersion()
+#11 /home/mgt/tmprepo/glamira2/vendor/magento/framework/Console/Cli.php(98): Magento\Framework\App\ProductMetadata->getVersion()
+#12 /home/mgt/tmprepo/glamira2/bin/magento(22): Magento\Framework\Console\Cli->__construct()
+#13 {main}
